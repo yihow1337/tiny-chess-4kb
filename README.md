@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/tiny-chess-01/yihow1337/tiny-chess-4kb/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/yihow1337/tiny-chess-4kb/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A deterministic alpha-beta chess engine (depth 3 + quiescence, PST eval) packed into 4 KB of Python via lzma for make.fun's tiny-chess bounty.
+A deterministic chess engine in 4 KB of Python (lzma-packed) for make.fun's tiny-chess bounty: PVS with a transposition table, killers, history, null-move pruning, late move reductions, check extensions and quiescence, over a tapered material/piece-square eval. Every move comes from a fixed node budget, never a clock, so a trial replays move for move.
 
 ## Run it
 
